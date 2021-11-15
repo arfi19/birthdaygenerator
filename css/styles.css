@@ -4,3 +4,24 @@ nav{
   text-align: center;
   color: black;
 }
+body{
+  background-color: rgb(59, 118, 177);
+}
+.section{
+  background-color: rgb(59, 118, 177);
+}
+h1{
+  text-align: left;
+}
+p{
+  text-align: left;
+}
+ol{
+  text-align: left;
+}
+footer{
+  text-align: center;
+}
+p.solid{
+  border-style: solid;
+}
