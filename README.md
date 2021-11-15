@@ -11,3 +11,7 @@
   JavaScript
 # License
   MIT
+# Copyright
+  ArfonIdris Copyright@2021
+# Contact Information
+  Email me - idrisarfi@gmail.com
