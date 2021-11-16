@@ -8,6 +8,7 @@ var name;
 document.getElementById("btn").addEventListener("click",function(){
   var week=['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
   var day=week[new Date(year.value + "/" + month.value + "/" + dates.value).getDay()]
+
  if(gender.value === "male"){
    if(day==="Sunday"){
      name="Kwasi"
@@ -32,5 +33,29 @@ document.getElementById("btn").addEventListener("click",function(){
   }
   
  }
+ if(gender.value === "female"){
+   if(day==="Sunday"){
+     name="Akosua"
+   }
+   else if(day==="Monday"){
+     name="Adwoa"
+   }
+   else if(day==="Tuesday"){
+    name="Abenaa"
+  }
+  else if(day==="Wednesday"){
+    name="Akua"
+  }
+  else if(day==="Thursday"){
+    name="Yaa"
+  }
+  else if(day==="Friday"){
+    name="Afua"
+  }
+  else if(day==="Saturday"){
+    name="Ama"
+  }
+ }
  console.log(name)
 })
+
