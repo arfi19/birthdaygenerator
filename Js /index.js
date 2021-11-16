@@ -57,5 +57,11 @@ document.getElementById("btn").addEventListener("click",function(){
   }
  }
  console.log(name)
+ if (year.value === ""){
+   console.log("Input year that you were born")
+ }
+ else if(year.value.length < 4|| year.value.length > 4){
+   console.log("Year length cannot be greater or less than 4")
+ }
 })
 
