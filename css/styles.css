@@ -1,27 +1,15 @@
-nav{
-  background-color: darkgrey;
-  padding: 20px;
-  text-align: center;
-  color: black;
-}
+
 body{
   background-color: rgb(59, 118, 177);
+  align-items: center;
 }
-.section{
-  background-color: rgb(59, 118, 177);
+.form input, #gender {
+  padding: 10px 10px;
+  width: 300px;
 }
-h1{
-  text-align: left;
+.form{
+  height: 300px;
 }
 p{
-  text-align: left;
-}
-ol{
-  text-align: left;
-}
-footer{
-  text-align: center;
-}
-p.solid{
-  border-style: solid;
+  font-size: 25px;
 }
