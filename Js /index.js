@@ -56,7 +56,6 @@ document.getElementById("btn").addEventListener("click",function(){
     name="Ama"
   }
  }
- console.log(name)
  if (year.value === ""){
    alert("Input year that you were born")
  }
@@ -74,6 +73,9 @@ document.getElementById("btn").addEventListener("click",function(){
 }
 else if(dates.value <= 0 || dates.value >31){
   alert("Dates has to be between 1 and 31")
+}
+else {
+  console.log(name)
 }
 })
 
