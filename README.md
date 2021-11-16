@@ -3,6 +3,7 @@
 # Installation Instructions
   Clone the project
   Cd into the project folder
+  Put in details on the input fields
   Go to live server
 # Language Used
   HTML
@@ -14,6 +15,6 @@
 # Copyright
   ArfonIdris Copyright@2021
 # Live Link
-  https://github.com/arfi19/birthdaygenerator.git
+ https://arfi19.github.io/birthdaygenerator/
 # Contact Information
   Email me - idrisarfi@gmail.com
