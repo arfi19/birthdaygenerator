@@ -58,10 +58,22 @@ document.getElementById("btn").addEventListener("click",function(){
  }
  console.log(name)
  if (year.value === ""){
-   console.log("Input year that you were born")
+   alert("Input year that you were born")
  }
  else if(year.value.length < 4|| year.value.length > 4){
-   console.log("Year length cannot be greater or less than 4")
+   alert("Year length cannot be greater or less than 4")
  }
+ if(month.value === ""){
+   alert("Input month is required")
+ }
+ else if(month.value <= 0 || month.value >12){
+   alert("Month has to be between 1 and 12")
+ }
+ if(dates.value === ""){
+  alert("Input date is required")
+}
+else if(dates.value <= 0 || dates.value >31){
+  alert("Dates has to be between 1 and 31")
+}
 })
 
