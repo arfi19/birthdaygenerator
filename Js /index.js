@@ -75,7 +75,9 @@ else if(dates.value <= 0 || dates.value >31){
   alert("Dates has to be between 1 and 31")
 }
 else {
-  console.log(name)
+  document.getElementById("response").innerHTML="Your Akan name is " + name
+  document.getElementById("response").style.color = "white"
 }
+
 })
 
