@@ -1,4 +1,7 @@
-
+h1{
+  background-color: rgb(59, 118, 177);
+  text-align: center;
+}
 body{
   background-color: rgb(59, 118, 177);
   align-items: center;
